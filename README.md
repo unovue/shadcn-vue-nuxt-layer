@@ -5,7 +5,7 @@ Quickly get started with a Nuxt layer for [Shadcn-vue](https://shadcn-vue.com/) 
 ## Quick start
 
 ```bash
-degit radix-vue/shadcn-vue-nuxt-layer
+degit radix-vue/shadcn-vue-nuxt-layer <component-folder>
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ pnpm shadcn:init
 
  
 ```bash
-npx shadcn:init add
+npx shadcn:add
 # equivalent to npx shadcn-vue@latest add
 ```
 
@@ -37,4 +37,4 @@ For improvements, please open a Pull Request to each individual branch.
 
 ## License
 
-[MIT](https://github.com/shadcn/ui/blob/main/LICENSE.md) - Made with 💚`
+[MIT](https://github.com/radix-vue/radix-vue/blob/main/LICENSE) - Made with 💚
