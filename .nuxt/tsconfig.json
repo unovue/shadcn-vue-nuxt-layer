@@ -1,0 +1,12 @@
+// Local tsconfig for shadcn-vue
+// Changing it might break shadcn-vue
+{
+  "compilerOptions": {
+    "paths": {
+      "~": [".."],
+      "~/*": ["../*"],
+      "@": [".."],
+      "@/*": ["../*"]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "shadcn-vue-nuxt-layer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "shadcn:init": "npx shadcn-vue@latest init",
+    "shadcn:add": "npx shadcn-vue@latest add"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lucide-vue-next": "^0.284.0",
+    "radix-vue": "^0.4.1",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}
