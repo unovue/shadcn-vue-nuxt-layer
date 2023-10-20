@@ -14,4 +14,7 @@ export default defineNuxtConfig({
       prefix: 'Ui'
     },
   ],
+  tailwindcss: {
+    cssPath: join(currentDir, './assets/css/tailwind.css'),
+  },
 })
